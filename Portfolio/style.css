@@ -1,0 +1,193 @@
+
+body  {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ /* CSS inline pour définir l'image en tant qu'arrière-plan de la barre de navigation */
+ header nav {
+    background-image: url('Image.jpg'); /* Chemin de l'image */
+    background-size: cover; /* Redimensionner l'image pour couvrir toute la zone */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    padding: 20px; /* Ajouter un peu de rembourrage pour le contenu à l'intérieur */
+    color: white; /* Couleur du texte sur l'image */
+}
+
+/* Style pour les liens dans la navigation */
+header nav ul li {
+    display: inline; /* Afficher les éléments de la liste en ligne */
+    margin-right: 20px; /* Espacement entre les éléments de la liste */
+}
+
+body {
+    background-image: url('body.jpg'); /* Spécifie l'image de fond */
+    background-size: cover; /* Redimensionne l'image pour couvrir toute la zone */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
+header {
+    background-color: hwb(199 12% 60%);
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+  ;
+}
+nav h1 {
+text-align: left;
+}
+
+
+
+nav ul {
+  
+
+    list-style-type: none;
+    padding: 20px;;
+    background-color: #1e4a5a63;
+    text-align: right;
+}
+
+nav  ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    background-color: #0f0d0d;
+}
+section h1 {
+    font-size: 75px; /* Taille de la police */
+    /* Vous pouvez également utiliser d'autres propriétés de CSS pour personnaliser le style */
+    font-weight: bold; /* Gras */
+    color: black; /* Couleur du texte */
+    /* Ajoutez d'autres styles CSS selon vos préférences */
+    text-align: center;
+    position: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: bougerTitre 2s infinite alternate;
+        }
+        @keyframes bougerTitre {
+            0% {
+              opacity: 0;
+              transform: translateY(-50px);
+            }
+            50% {
+              opacity: 1;
+              transform: translateY(0);
+            }
+            100% {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+          
+          .titre {
+            animation: bougerTitre 2s infinite alternate;
+            animation-timing-function: steps(1, end);
+          }
+
+
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+section h2{max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ecfbfde0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:hwb(199 12% 60%); 
+    padding: 25px;
+}
+
+
+article,.option1, .option2,.option3, .option4{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ecfbfde0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.education-section, .experience-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ecfbfde0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#avancees, #ia,#interaction,#ethique{max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ecfbfde0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.education-entry {
+    margin-bottom: 30px;
+}
+
+.education-entry h2 {
+    margin: 0;
+    color: #0056b3;
+}
+
+.education-entry p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.education-entry p strong {
+    color: #333;
+}
+.education-section, .experience-section {
+    margin-bottom: 40px;
+}
+
+.education-entry, .experience-entry {
+    margin-bottom: 30px;
+}
+
+
+
+footer {
+    background-color:hwb(199 12% 60%);
+    color:  #06070763;
+    padding: 20px 50px;
+    text-align: center;
+    
+}
+
+
+footer img {
+    width: 30px;
+    margin:  10px;
+}
